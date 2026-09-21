@@ -1,0 +1,365 @@
+﻿2026-09-21 09:47:46 - M365 alert script started for ticket 37382
+2026-09-21 09:47:47 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 09:47:47 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 09:47:47 - ----- End of extracted body text -----
+2026-09-21 09:47:47 - Regex match result: ''
+2026-09-21 09:47:47 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 09:47:47 - Extracted name from body: ''
+2026-09-21 09:47:47 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 09:47:47 - Automated client-detection (Microsoft 365 vulnerability alert): could not extract an organization/client name from this ticket's body. No reassignment made - please check manually.
+2026-09-21 09:48:48 - M365 alert script started for ticket 37382
+2026-09-21 09:48:50 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 09:48:50 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 09:48:50 - ----- End of extracted body text -----
+2026-09-21 09:48:50 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 09:48:50 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 09:48:50 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 09:48:50 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 09:48:50 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 09:48:50 - Client lookup finished. No match found.
+2026-09-21 09:48:50 - Automated client-detection (Microsoft 365 vulnerability alert): extracted name 'Glasshouse Country Care' did not match any known Halo client. No reassignment made - please check manually.
+2026-09-21 09:57:54 - M365 alert script started for ticket 37382
+2026-09-21 09:57:55 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 09:57:55 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 09:57:55 - ----- End of extracted body text -----
+2026-09-21 09:57:55 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 09:57:55 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 09:57:55 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 09:57:55 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 09:57:55 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 09:57:55 - Find-HaloClientByName: retrieved 50 client(s). First client's properties: id, name, toplevel_id, toplevel_name, inactive, colour, confirmemail, actionemail, clearemail, messagegroup_id, mailbox_override, default_mailbox_id, item_tax_code, service_tax_code, prepay_tax_code, contract_tax_code, pritech, sectech, accountmanagertech, use, key, table, xero_tenant_id, excludefrominvoicesync, overridepdftemplateinvoice, kashflow_tenant_id, client_to_invoice, itglue_id, sentinel_subscription_id, sentinel_workspace_name, sentinel_resource_group_name, default_currency_code, client_to_invoice_recurring, qbo_company_id, dbc_company_id, stopped, customertype, customer_relationship, customer_relationship_list, servicenow_validated, jira_validated, ticket_invoices_for_each_site, is_vip, taxable, percentage_to_survey, overridepdftemplatequote, is_account
+2026-09-21 09:57:55 - Find-HaloClientByName: first client raw values - {"id":773,"name":" Initiative Accounting","toplevel_id":1,"toplevel_name":"Areas","inactive":false,"colour":"#0F61A1","confirmemail":1,"actionemail":1,"clearemail":1,"messagegroup_id":-1,"mailbox_override":-1,"default_mailbox_id":0,"item_tax_code":3,"service_tax_code":3,"prepay_tax_code":3,"contract_tax_code":3,"pritech":0,"sectech":0,"accountmanagertech":0,"use":"client","key":773,"table":2,"xero_tenant_id":"779a7fe3-391a-458c-9955-44e45d7ee0b9","excludefrominvoicesync":false,"overridepdftemplateinvoice":-1,"kashflow_tenant_id":0,"client_to_invoice":0,"itglue_id":"","sentinel_subscription_id":"","sentinel_workspace_name":"","sentinel_resource_group_name":"","default_currency_code":0,"client_to_invoice_recurring":0,"qbo_company_id":"","dbc_company_id":"","stopped":0,"customertype":0,"customer_relationship":[],"customer_relationship_list":"[]","servicenow_validated":false,"jira_validated":false,"ticket_invoices_for_each_site":false,"is_vip":false,"taxable":true,"percentage_to_survey":0,"overridepdftemplatequote":-1,"is_account":false}
+2026-09-21 09:57:55 - Find-HaloClientByName: 'Glasshouse' does not appear in ANY of the 50 client names returned - likely a pagination limit cutting the list short before reaching it, or the client not being in this endpoint's default result set.
+2026-09-21 09:57:55 - Client lookup finished. No match found.
+2026-09-21 09:57:55 - Automated client-detection (Microsoft 365 vulnerability alert): extracted name 'Glasshouse Country Care' did not match any known Halo client. No reassignment made - please check manually.
+2026-09-21 10:00:37 - M365 alert script started for ticket 37382
+2026-09-21 10:00:38 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 10:00:38 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 10:00:38 - ----- End of extracted body text -----
+2026-09-21 10:00:38 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 10:00:38 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 10:00:38 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 10:00:38 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 10:00:38 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 10:00:38 - Find-HaloClientByName: search=Glasshouse Country Care returned 0 results - falling back to full paginated list.
+2026-09-21 10:00:39 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 10:00:39 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 10:00:39 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 10:00:40 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 10:00:40 - Find-HaloClientByName: fetched page 5 (11 client(s), 811 total so far).
+2026-09-21 10:00:40 - Find-HaloClientByName: full list retrieved, 811 client(s) total.
+2026-09-21 10:00:40 - Client lookup finished. Best match: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:00:41 - Automated client-detection (Microsoft 365 vulnerability alert): extracted 'Glasshouse Country Care' from the ticket body, matched Halo client 'Glasshouse Country Care' (ID 229), and reassigned this ticket to them.
+2026-09-21 10:00:41 - ===== Run finished for ticket 37382 =====
+2026-09-21 10:30:55 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgyIn0=
+2026-09-21 10:30:55 - Decoded params: {"TicketId":"37382"}
+2026-09-21 10:30:55 - M365 alert script started for ticket 37382
+2026-09-21 10:30:55 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 10:30:55 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 10:30:55 - ----- End of extracted body text -----
+2026-09-21 10:30:55 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 10:30:55 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 10:30:55 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 10:30:55 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 10:30:55 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 10:30:56 - Find-HaloClientByName: search=Glasshouse Country Care returned 0 results - falling back to full paginated list.
+2026-09-21 10:30:56 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 10:30:56 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 10:30:56 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 10:30:57 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 10:30:57 - Find-HaloClientByName: fetched page 5 (11 client(s), 811 total so far).
+2026-09-21 10:30:57 - Find-HaloClientByName: full list retrieved, 811 client(s) total.
+2026-09-21 10:30:57 - Client lookup finished. Best match: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:30:59 - Automated client-detection (Microsoft 365 vulnerability alert): extracted 'Glasshouse Country Care' from the ticket body, matched Halo client 'Glasshouse Country Care' (ID 229), and reassigned this ticket to them.
+2026-09-21 10:31:00 - ===== Run finished for ticket 37382 =====
+2026-09-21 10:35:39 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgyIn0=
+2026-09-21 10:35:39 - Decoded params: {"TicketId":"37382"}
+2026-09-21 10:35:39 - M365 alert script started for ticket 37382
+2026-09-21 10:35:40 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 10:35:40 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 10:35:40 - ----- End of extracted body text -----
+2026-09-21 10:35:40 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 10:35:40 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 10:35:40 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 10:35:40 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 10:35:40 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 10:35:40 - Find-HaloClientByName: search=Glasshouse Country Care returned 0 results - falling back to full paginated list.
+2026-09-21 10:35:40 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 10:35:40 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 10:35:41 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 10:35:41 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 10:35:41 - Find-HaloClientByName: fetched page 5 (11 client(s), 811 total so far).
+2026-09-21 10:35:41 - Find-HaloClientByName: full list retrieved, 811 client(s) total.
+2026-09-21 10:35:41 - Client lookup finished. Best match: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:35:41 - Looking up main site for client 'Glasshouse Country Care' (ID 229)...
+2026-09-21 10:35:42 - Get-HaloClientMainSite: client record has main_site_id = 262
+2026-09-21 10:35:44 - Set client + site (site ID 262).
+2026-09-21 10:35:44 - Automation successful: matching client -> Glasshouse Country Care
+2026-09-21 10:35:45 - ===== Run finished for ticket 37382 =====
+2026-09-21 10:45:17 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgyIn0=
+2026-09-21 10:45:17 - Decoded params: {"TicketId":"37382"}
+2026-09-21 10:45:17 - M365 alert script started for ticket 37382
+2026-09-21 10:45:18 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 10:45:18 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 10:45:18 - ----- End of extracted body text -----
+2026-09-21 10:45:18 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 10:45:18 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 10:45:18 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 10:45:18 - Current client on ticket: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:45:18 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 10:45:18 - Find-HaloClientByName: search=Glasshouse Country Care returned 0 results - falling back to full paginated list.
+2026-09-21 10:45:18 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 10:45:19 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 10:45:19 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 10:45:19 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 10:45:19 - Find-HaloClientByName: fetched page 5 (11 client(s), 811 total so far).
+2026-09-21 10:45:19 - Find-HaloClientByName: full list retrieved, 811 client(s) total.
+2026-09-21 10:45:19 - Client lookup finished. Best match: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:45:19 - Automation: ticket already assigned to 'Glasshouse Country Care' - no change needed.
+2026-09-21 10:48:55 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgyIn0=
+2026-09-21 10:48:55 - Decoded params: {"TicketId":"37382"}
+2026-09-21 10:48:55 - M365 alert script started for ticket 37382
+2026-09-21 10:48:56 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 10:48:56 - Microsoft Defender for Endpoint - New notification                                                                                                                                                                                                                                                          
+ New vulnerabilities notification: Default vulnerabilities notificationOrganization
+Glasshouse Country Care
+Rule name
+Default vulnerabilities notification
+Type
+Vulnerability notification
+View recommendations >
+Go to related vulnerabilities
+Vulnerabilities detailsVulnerability NameCVE-2026-93374SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-basedVulnerability NameCVE-2026-93373SeverityCriticalCVSS9.6Exposed devices33Affected productsMicrosoft Edge Chromium-based
+Privacy StatementMicrosoft Corporation, One Microsoft Way, ​Redmond, WA 98052​
+2026-09-21 10:48:56 - ----- End of extracted body text -----
+2026-09-21 10:48:56 - Regex match result: 'Glasshouse Country Care'
+2026-09-21 10:48:56 - ===== Run started for ticket 37382 (Microsoft 365 vulnerability alert) =====
+2026-09-21 10:48:56 - Extracted name from body: 'Glasshouse Country Care'
+2026-09-21 10:48:56 - Current client on ticket: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:48:56 - Fetching client list to match against 'Glasshouse Country Care'...
+2026-09-21 10:48:56 - Find-HaloClientByName: search=Glasshouse Country Care returned 0 results - falling back to full paginated list.
+2026-09-21 10:48:56 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 10:48:56 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 10:48:56 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 10:48:57 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 10:48:57 - Find-HaloClientByName: fetched page 5 (11 client(s), 811 total so far).
+2026-09-21 10:48:57 - Find-HaloClientByName: full list retrieved, 811 client(s) total.
+2026-09-21 10:48:57 - Client lookup finished. Best match: 'Glasshouse Country Care' (ID 229)
+2026-09-21 10:48:57 - Client Auto-Detection: This ticket is already correctly assigned to 'Glasshouse Country Care'. No action was required.
+2026-09-21 11:23:23 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgyIn0=
+2026-09-21 11:23:23 - Decoded params: {"TicketId":"37382"}
+2026-09-21 11:23:23 - Appointment script started for ticket 37382
+2026-09-21 11:23:24 - Ticket 37382 - client 'Glasshouse Country Care' (ID 229), agent '' (ID 34), category_4 'Test'
+2026-09-21 11:23:24 - New-HaloTicketAppointment: agent '' (ID 34), subject 'Glasshouse Country Care - Test', 09/21/2026 16:00:00 +10:00 -> 09/21/2026 16:30:00 +10:00 (AEST)
+2026-09-21 11:23:26 - Appointment Scheduling: A 30-minute appointment ('Glasshouse Country Care - Test') has been created for  at 4:00pm-4:30pm AEST.
+2026-09-21 12:11:58 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgzIn0=
+2026-09-21 12:11:58 - Decoded params: {"TicketId":"37383"}
+2026-09-21 12:11:58 - Blackpoint alert script started for ticket 37383
+2026-09-21 12:11:59 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 12:11:59 - Blackpoint Cloud Response for Microsoft 365 has detected that reception@sunshinecoastoms.com.au has successfully authenticated to Microsoft 365 from SG. This country is not on the approved country list for this Microsoft 365 tenant and/or Account in Cloud Response.Login from Unapproved CountryCustomer NameSunshine Coast Oral, Facial & Implant SpecialistIP Address203.125.195.181CitySingaporeCountrySGOperating SystemOSXBrowserWebKitUser Agent StringMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) PKeyAuth/1.0Event Date & TimeSep 21, 2026 1:04:48 AM +00:00Risk:Threat actors may gain access to accounts from a foreign location or IP address, to conduct Business Email Compromise (BEC) scams, steal data, or launch spam campaigns.Required Response Action:Verify the activity is legitimate by:Reviewing the geographical information associated with the IP address.Checking if a VPN, Proxy or TOR service was detected in the event details above.Contact the owner of the account to verify the activity and location.If the activity is legitimate and alerts should be suppressed, add this country to the Allow list for this tenant or user in Cloud Response.If the activity is malicious or involves a TOR, you should:Suspend the Microsoft 365 account.Inform the SOC of the incident.We highly recommend implementing tenant-wide MFA if not currently in place. Knowledge BaseFor more information on when the SOC will take action on alerts, please reach out to your Account Manager for the most recently updated Partner Experience Playbook.⚠️  Delayed Alerts: Cloud Response for Microsoft 365 relies on Microsoft APIs to report activity information, which may be delayed by 60 to 90 minutes. This is beyond the control of Blackpoint. For more information, see our Knowledge Base.You are receiving this transactional message because you are subscribed to Cloud Response for Microsoft 365. To manage email notifications, sign in to Cloud Response.Blackpoint Cyber1099 18th St Suite 3050, Denver, CO 80202
+2026-09-21 12:11:59 - ----- End of extracted body text -----
+2026-09-21 12:11:59 - Regex match result: ''
+2026-09-21 12:11:59 - ===== Run started for ticket 37383 (Blackpoint Cyber alert) =====
+2026-09-21 12:11:59 - Extracted name from body: ''
+2026-09-21 12:11:59 - Current client on ticket: 'TEST CLIENT' (ID 879)
+2026-09-21 12:11:59 - Client Auto-Detection (Blackpoint Cyber alert): No organization name could be identified in the ticket body. No changes were made; please review and reassign this ticket manually.
+2026-09-21 12:13:31 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgzIn0=
+2026-09-21 12:13:31 - Decoded params: {"TicketId":"37383"}
+2026-09-21 12:13:31 - Blackpoint alert script started for ticket 37383
+2026-09-21 12:13:31 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 12:13:31 - Blackpoint Cloud Response for Microsoft 365 has detected that reception@sunshinecoastoms.com.au has successfully authenticated to Microsoft 365 from SG. This country is not on the approved country list for this Microsoft 365 tenant and/or Account in Cloud Response.Login from Unapproved CountryCustomer NameSunshine Coast Oral, Facial & Implant SpecialistIP Address203.125.195.181CitySingaporeCountrySGOperating SystemOSXBrowserWebKitUser Agent StringMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) PKeyAuth/1.0Event Date & TimeSep 21, 2026 1:04:48 AM +00:00Risk:Threat actors may gain access to accounts from a foreign location or IP address, to conduct Business Email Compromise (BEC) scams, steal data, or launch spam campaigns.Required Response Action:Verify the activity is legitimate by:Reviewing the geographical information associated with the IP address.Checking if a VPN, Proxy or TOR service was detected in the event details above.Contact the owner of the account to verify the activity and location.If the activity is legitimate and alerts should be suppressed, add this country to the Allow list for this tenant or user in Cloud Response.If the activity is malicious or involves a TOR, you should:Suspend the Microsoft 365 account.Inform the SOC of the incident.We highly recommend implementing tenant-wide MFA if not currently in place. Knowledge BaseFor more information on when the SOC will take action on alerts, please reach out to your Account Manager for the most recently updated Partner Experience Playbook.⚠️  Delayed Alerts: Cloud Response for Microsoft 365 relies on Microsoft APIs to report activity information, which may be delayed by 60 to 90 minutes. This is beyond the control of Blackpoint. For more information, see our Knowledge Base.You are receiving this transactional message because you are subscribed to Cloud Response for Microsoft 365. To manage email notifications, sign in to Cloud Response.Blackpoint Cyber1099 18th St Suite 3050, Denver, CO 80202
+2026-09-21 12:13:31 - ----- End of extracted body text -----
+2026-09-21 12:13:31 - Regex match result: ''
+2026-09-21 12:13:32 - ===== Run started for ticket 37383 (Blackpoint Cyber alert) =====
+2026-09-21 12:13:32 - Extracted name from body: ''
+2026-09-21 12:13:32 - Current client on ticket: 'TEST CLIENT' (ID 879)
+2026-09-21 12:13:32 - Client Auto-Detection (Blackpoint Cyber alert): No organization name could be identified in the ticket body. No changes were made; please review and reassign this ticket manually.
+2026-09-21 12:17:46 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3MzgzIn0=
+2026-09-21 12:17:46 - Decoded params: {"TicketId":"37383"}
+2026-09-21 12:17:46 - Blackpoint alert script started for ticket 37383
+2026-09-21 12:17:47 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 12:17:47 - Blackpoint Cloud Response for Microsoft 365 has detected that reception@sunshinecoastoms.com.au has successfully authenticated to Microsoft 365 from SG. This country is not on the approved country list for this Microsoft 365 tenant and/or Account in Cloud Response.Login from Unapproved CountryCustomer NameSunshine Coast Oral, Facial & Implant SpecialistIP Address203.125.195.181CitySingaporeCountrySGOperating SystemOSXBrowserWebKitUser Agent StringMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) PKeyAuth/1.0Event Date & TimeSep 21, 2026 1:04:48 AM +00:00Risk:Threat actors may gain access to accounts from a foreign location or IP address, to conduct Business Email Compromise (BEC) scams, steal data, or launch spam campaigns.Required Response Action:Verify the activity is legitimate by:Reviewing the geographical information associated with the IP address.Checking if a VPN, Proxy or TOR service was detected in the event details above.Contact the owner of the account to verify the activity and location.If the activity is legitimate and alerts should be suppressed, add this country to the Allow list for this tenant or user in Cloud Response.If the activity is malicious or involves a TOR, you should:Suspend the Microsoft 365 account.Inform the SOC of the incident.We highly recommend implementing tenant-wide MFA if not currently in place. Knowledge BaseFor more information on when the SOC will take action on alerts, please reach out to your Account Manager for the most recently updated Partner Experience Playbook.⚠️  Delayed Alerts: Cloud Response for Microsoft 365 relies on Microsoft APIs to report activity information, which may be delayed by 60 to 90 minutes. This is beyond the control of Blackpoint. For more information, see our Knowledge Base.You are receiving this transactional message because you are subscribed to Cloud Response for Microsoft 365. To manage email notifications, sign in to Cloud Response.Blackpoint Cyber1099 18th St Suite 3050, Denver, CO 80202
+2026-09-21 12:17:47 - ----- End of extracted body text -----
+2026-09-21 12:17:47 - Regex match result: 'Sunshine Coast Oral, Facial & Implant Specialist'
+2026-09-21 12:17:47 - ===== Run started for ticket 37383 (Blackpoint Cyber alert) =====
+2026-09-21 12:17:47 - Extracted name from body: 'Sunshine Coast Oral, Facial & Implant Specialist'
+2026-09-21 12:17:47 - Current client on ticket: 'TEST CLIENT' (ID 879)
+2026-09-21 12:17:47 - Fetching client list to match against 'Sunshine Coast Oral, Facial & Implant Specialist'...
+2026-09-21 12:17:47 - Find-HaloClientByName: search=Sunshine Coast Oral, Facial & Implant Specialist returned 0 results - falling back to full paginated list.
+2026-09-21 12:17:47 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 12:17:47 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 12:17:48 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 12:17:48 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 12:17:48 - Find-HaloClientByName: fetched page 5 (12 client(s), 812 total so far).
+2026-09-21 12:17:48 - Find-HaloClientByName: full list retrieved, 812 client(s) total.
+2026-09-21 12:17:48 - Client lookup finished. Best match: 'Sunshine Coast Oral, Facial & Implant Specialist' (ID 885)
+2026-09-21 12:17:48 - Looking up main site for client 'Sunshine Coast Oral, Facial & Implant Specialist' (ID 885)...
+2026-09-21 12:17:49 - Get-HaloClientMainSite: client record has main_site_id = 1133
+2026-09-21 12:17:50 - Set client + site (site ID 1133).
+2026-09-21 12:17:50 - Client Auto-Detection: This ticket has been automatically reassigned to client 'Sunshine Coast Oral, Facial & Implant Specialist' and its main site, based on the organization named in the ticket body.
+2026-09-21 12:17:50 - ===== Run finished for ticket 37383 =====
+2026-09-21 13:27:53 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3Mzg1In0=
+2026-09-21 13:27:53 - Decoded params: {"TicketId":"37385"}
+2026-09-21 13:27:53 - Veeam alert script started for ticket 37385
+2026-09-21 13:27:53 - ===== Veeam alert run started for ticket 37385 =====
+2026-09-21 13:27:53 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 13:27:53 - Extracted alert code: 'ATW'
+2026-09-21 13:27:53 - Code 'ATW' maps to client 'All Terrain Warriors' - handing off to the standard reassignment routine.
+2026-09-21 13:27:53 - ===== Run started for ticket 37385 (Veeam backup alert (code 'ATW')) =====
+2026-09-21 13:27:53 - Extracted name from body: 'All Terrain Warriors'
+2026-09-21 13:27:53 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 13:27:53 - Fetching client list to match against 'All Terrain Warriors'...
+2026-09-21 13:27:54 - Find-HaloClientByName: search=All Terrain Warriors returned 0 results - falling back to full paginated list.
+2026-09-21 13:27:54 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 13:27:54 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 13:27:54 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 13:27:54 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 13:27:55 - Find-HaloClientByName: fetched page 5 (12 client(s), 812 total so far).
+2026-09-21 13:27:55 - Find-HaloClientByName: full list retrieved, 812 client(s) total.
+2026-09-21 13:27:55 - Client lookup finished. Best match: 'All Terrain Warriors' (ID 47)
+2026-09-21 13:27:55 - Looking up main site for client 'All Terrain Warriors' (ID 47)...
+2026-09-21 13:27:55 - Get-HaloClientMainSite: client record has main_site_id = 62
+2026-09-21 13:27:56 - Set client + site (site ID 62).
+2026-09-21 13:27:56 - Client Auto-Detection: This ticket has been automatically reassigned to client 'All Terrain Warriors' and its main site, based on the organization named in the ticket body.
+2026-09-21 13:27:56 - ===== Run finished for ticket 37385 =====
+2026-09-21 13:29:28 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3Mzg1In0=
+2026-09-21 13:29:29 - Decoded params: {"TicketId":"37385"}
+2026-09-21 13:29:29 - Appointment script started for ticket 37385
+2026-09-21 13:29:29 - Ticket 37385 - client 'All Terrain Warriors' (ID 47), agent '' (ID 34), category_4 'Veem'
+2026-09-21 13:29:29 - New-HaloTicketAppointment: agent '' (ID 34), subject 'All Terrain Warriors - Veem', 09/21/2026 16:00:00 +10:00 -> 09/21/2026 16:30:00 +10:00 (AEST)
+2026-09-21 13:29:31 - Appointment Scheduling: A 30-minute appointment ('All Terrain Warriors - Veem') has been created for  at 4:00pm-4:30pm AEST.
+2026-09-21 13:29:31 - Using configured status ID 23 (skipping name lookup).
+2026-09-21 13:29:32 - Ticket status set to ID 23.
+2026-09-21 13:43:50 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3Mzg0In0=
+2026-09-21 13:43:50 - Decoded params: {"TicketId":"37384"}
+2026-09-21 13:43:50 - Cloudally daily summary script started for ticket 37384
+2026-09-21 13:43:51 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 13:43:51 - From: support@cloudally.com 
+Sent: Monday, September 21, 2026 2:14:10 AM (UTC+00:00) Monrovia, Reykjavik
+To: Alerts | Network Office SC 
+Subject: Cloudally Backup Summary - Total Business Partners, 2 Backup items Failed, 144 items Successful (Total Business Partners)
+|Cloudally BackupBackup Summary ReportDaily Report21 September 2026AccountTotal Business PartnersMailtap@networkofficesc.com.auReport typeFailures OnlyTotal Tasks4My Account HomepageTasks Backup Status Overview3
+Succeeded
+1
+Partially Succeeded
+0
+Failed
+Tasks Requiring AttentionConnectivityTask NameStatusFailure LogConnectedTAPMS365Partially Succeeded2 usersView in appDownload All ReportsDetailed reports available in a zip file
+HomeSign inBlogSupportTo update your emails preferences click here.
+Use of the service and website is subject to our Terms of Use and Privacy Statement.
+© 2026 Cloudally. All rights reserved
+www.Cloudally.com
+2026-09-21 13:43:51 - ----- End of extracted body text -----
+2026-09-21 13:43:51 - Ticket summary: 'Testing Cloudally'
+2026-09-21 13:43:51 - Final extracted name: ''
+2026-09-21 13:43:51 - ===== Run started for ticket 37384 (Cloudally daily backup summary) =====
+2026-09-21 13:43:51 - Extracted name from body: ''
+2026-09-21 13:43:51 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 13:43:51 - Client Auto-Detection (Cloudally daily backup summary): No organization name could be identified in the ticket body. No changes were made; please review and reassign this ticket manually.
+2026-09-21 13:46:34 - Raw EncodedJson received: eyJUaWNrZXRJZCI6IjM3Mzg0In0=
+2026-09-21 13:46:34 - Decoded params: {"TicketId":"37384"}
+2026-09-21 13:46:34 - Cloudally daily summary script started for ticket 37384
+2026-09-21 13:46:37 - ----- Plain text extracted from ticket body (for debugging) -----
+2026-09-21 13:46:37 - From: support@cloudally.com 
+Sent: Monday, September 21, 2026 2:14:10 AM (UTC+00:00) Monrovia, Reykjavik
+To: Alerts | Network Office SC 
+Subject: Cloudally Backup Summary - Total Business Partners, 2 Backup items Failed, 144 items Successful (Total Business Partners)
+|Cloudally BackupBackup Summary ReportDaily Report21 September 2026AccountTotal Business PartnersMailtap@networkofficesc.com.auReport typeFailures OnlyTotal Tasks4My Account HomepageTasks Backup Status Overview3
+Succeeded
+1
+Partially Succeeded
+0
+Failed
+Tasks Requiring AttentionConnectivityTask NameStatusFailure LogConnectedTAPMS365Partially Succeeded2 usersView in appDownload All ReportsDetailed reports available in a zip file
+HomeSign inBlogSupportTo update your emails preferences click here.
+Use of the service and website is subject to our Terms of Use and Privacy Statement.
+© 2026 Cloudally. All rights reserved
+www.Cloudally.com
+2026-09-21 13:46:37 - ----- End of extracted body text -----
+2026-09-21 13:46:37 - Ticket summary: 'Testing Cloudally'
+2026-09-21 13:46:37 - Extracted name from ticket body (Account field): 'Total Business Partners'
+2026-09-21 13:46:37 - Final extracted name: 'Total Business Partners'
+2026-09-21 13:46:37 - ===== Run started for ticket 37384 (Cloudally daily backup summary) =====
+2026-09-21 13:46:37 - Extracted name from body: 'Total Business Partners'
+2026-09-21 13:46:37 - Current client on ticket: 'Unknown' (ID 1)
+2026-09-21 13:46:37 - Fetching client list to match against 'Total Business Partners'...
+2026-09-21 13:46:38 - Find-HaloClientByName: search=Total Business Partners returned 0 results - falling back to full paginated list.
+2026-09-21 13:46:39 - Find-HaloClientByName: fetched page 1 (200 client(s), 200 total so far).
+2026-09-21 13:46:40 - Find-HaloClientByName: fetched page 2 (200 client(s), 400 total so far).
+2026-09-21 13:46:41 - Find-HaloClientByName: fetched page 3 (200 client(s), 600 total so far).
+2026-09-21 13:46:42 - Find-HaloClientByName: fetched page 4 (200 client(s), 800 total so far).
+2026-09-21 13:46:42 - Find-HaloClientByName: fetched page 5 (12 client(s), 812 total so far).
+2026-09-21 13:46:42 - Find-HaloClientByName: full list retrieved, 812 client(s) total.
+2026-09-21 13:46:42 - Find-HaloClientByName: no exact/substring match, but found name(s) containing 'Total': Total Advice Partners; Total Accounting Partners; TOTAL SPAN
+2026-09-21 13:46:42 - Client lookup finished. No match found.
+2026-09-21 13:46:42 - Client Auto-Detection (Cloudally daily backup summary): The organization 'Total Business Partners' was identified in the ticket body but does not match any client on record in Halo. No changes were made; please review and reassign this ticket manually.
