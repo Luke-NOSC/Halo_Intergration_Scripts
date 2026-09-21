@@ -30,19 +30,23 @@ param(
     [string]$EncodedJson
 )
 
-# Hardcoded path rather than $PSScriptRoot - depending on exactly how the
-# Integrator invokes this script, $PSScriptRoot can come back empty, which
-# would silently break this dot-source with no useful error surfaced
-# anywhere. Update this path if you ever move the Scripts folder.
-$CommonLibPath = "C:\ProgramData\Halo Integrator\Scripts\HaloCommon.ps1"
+# Self-locating: derives paths from wherever THIS script actually lives,
+# rather than a hardcoded folder - so moving the Integrator to a
+# different computer or renaming the Scripts folder does not break it.
+# Falls back to the original fixed path only if $PSScriptRoot is somehow
+# unavailable.
+$ScriptDir = if ($PSScriptRoot) { $PSScriptRoot } else { "C:\ProgramData\Halo Integrator\Scripts" }
+$CommonLibPath = Join-Path $ScriptDir "HaloCommon.ps1"
 
 # Minimal standalone logger for use ONLY if HaloCommon.ps1 itself fails to
 # load (so we still get a record of that failure on disk).
 function Write-FallbackLog {
     param([string]$Message)
     try {
+        $logPath = Join-Path $ScriptDir "Halo-Script-Debug.log"
         $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - $Message"
-        Add-Content -Path "C:\ProgramData\Halo Integrator\Scripts\Halo-Script-Debug.log" -Value $line -Encoding UTF8
+        if (-not (Test-Path $ScriptDir)) { New-Item -Path $ScriptDir -ItemType Directory -Force -ErrorAction SilentlyContinue | Out-Null }
+        Add-Content -Path $logPath -Value $line -Encoding UTF8 -ErrorAction SilentlyContinue
     } catch {}
 }
 

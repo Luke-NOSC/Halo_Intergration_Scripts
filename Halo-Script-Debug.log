@@ -363,3 +363,15 @@ www.Cloudally.com
 2026-09-21 13:46:42 - Find-HaloClientByName: no exact/substring match, but found name(s) containing 'Total': Total Advice Partners; Total Accounting Partners; TOTAL SPAN
 2026-09-21 13:46:42 - Client lookup finished. No match found.
 2026-09-21 13:46:42 - Client Auto-Detection (Cloudally daily backup summary): The organization 'Total Business Partners' was identified in the ticket body but does not match any client on record in Halo. No changes were made; please review and reassign this ticket manually.
+2026-09-21 14:59:33 - FATAL: failed to load HaloCommon.ps1 - At C:\ProgramData\Halo Integrator\Halo_Intergration_Scripts\HaloCommon.ps1:18 char:25
++ $Global:HaloSecret   = "21S_rh5gCgj3HKcfTTysfbfbfc2ATMy5bhkxv4411o8"
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token '21S_rh5gCgj3HKcfTTysfbfbfc2ATMy5bhkxv4411o8"
+$Global:HaloApiTimeoutSec = 30   # every API call below fails fast after this many seconds instead of hanging indefinitely
+$Global:HaloLogFile = "C:\ProgramData\Halo' in expression or statement.
+
+At C:\ProgramData\Halo Integrator\Halo_Intergration_Scripts\HaloCommon.ps1:61 char:1
++ }
++ ~
+Unexpected token '}' in expression or statement.
+2026-09-21 15:04:42 - Raw EncodedJson received: eyJUaWNrZXRJZCI6Ijk1MTg2In0=

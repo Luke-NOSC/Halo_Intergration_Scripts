@@ -2,7 +2,8 @@
 .SYNOPSIS
     Halo PowerShell Integration script: creates a 30-minute holding
     appointment (4:00pm-4:30pm AEST/UTC+10) for the ticket's assigned
-    agent, titled "<Client> - <Request Category>".
+    agent, titled "<Client> - <Request Category>", and moves the ticket
+    into the "Scheduled Queue" status.
 
 .DESCRIPTION
     Intended to run as a second step straight after one of the client
@@ -27,6 +28,10 @@
     to category_1 then the ticket summary if that's not set - see
     New-HaloTicketAppointment in HaloCommon.ps1 if you want to change
     that source.
+
+    The "Scheduled Queue" status name is set once in HaloCommon.ps1 via
+    $Global:HaloScheduledQueueStatusName - update it there if your
+    status is named differently, rather than editing this file.
 #>
 
 param(
@@ -34,14 +39,21 @@ param(
     [string]$EncodedJson
 )
 
-# Hardcoded path rather than $PSScriptRoot - see Halo-M365.ps1 for why.
-$CommonLibPath = "C:\ProgramData\Halo Integrator\Scripts\HaloCommon.ps1"
+# Self-locating: derives paths from wherever THIS script actually lives,
+# rather than a hardcoded folder - so moving the Integrator to a
+# different computer or renaming the Scripts folder does not break it.
+# Falls back to the original fixed path only if $PSScriptRoot is somehow
+# unavailable.
+$ScriptDir = if ($PSScriptRoot) { $PSScriptRoot } else { "C:\ProgramData\Halo Integrator\Scripts" }
+$CommonLibPath = Join-Path $ScriptDir "HaloCommon.ps1"
 
 function Write-FallbackLog {
     param([string]$Message)
     try {
+        $logPath = Join-Path $ScriptDir "Halo-Script-Debug.log"
         $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - $Message"
-        Add-Content -Path "C:\ProgramData\Halo Integrator\Scripts\Halo-Script-Debug.log" -Value $line -Encoding UTF8
+        if (-not (Test-Path $ScriptDir)) { New-Item -Path $ScriptDir -ItemType Directory -Force -ErrorAction SilentlyContinue | Out-Null }
+        Add-Content -Path $logPath -Value $line -Encoding UTF8 -ErrorAction SilentlyContinue
     } catch {}
 }
 

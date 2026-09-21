@@ -13,9 +13,9 @@
 #>
 
 # ----------------- CONFIG - EDIT THESE ------------------
-$Global:HaloBaseUrl  = "https://sandbox-networkofficesc.halopsa.com"   # no trailing slash
-$Global:HaloClientId = "4834ad83-96a5-44c7-8772-836306423e50"
-$Global:HaloSecret   = "TMckQ8wmc7oufjtKO05lHVfXdGF69RnLBnND7iOGekg"
+$Global:HaloBaseUrl  = "https://networkofficesc.halopsa.com"   # no trailing slash
+$Global:HaloClientId = "9e2d6e44-0094-482d-b39e-695a69fff952"
+$Global:HaloSecret   = "21S_rh5gCgj3HKcfTTysfbfbfc2ATMy5bhkxv4411o8"
 $Global:HaloApiTimeoutSec = 30   # every API call below fails fast after this many seconds instead of hanging indefinitely
 $Global:HaloLogFile = "C:\ProgramData\Halo Integrator\Scripts\Halo-Script-Debug.log"
 $Global:HaloScheduledQueueStatusName = "Scheduled Queue"   # only used as a fallback if HaloScheduledQueueStatusId below is 0 - must match a status name exactly as configured in Halo (Configuration > Tickets > Status)
