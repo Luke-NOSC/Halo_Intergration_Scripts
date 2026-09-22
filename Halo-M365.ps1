@@ -87,23 +87,33 @@ try {
     }
 
     # ----------------- EXTRACT THE NAME -----------------
-    # M365 alert layout is:
-    #     Organization
-    #     Glasshouse Country Care
+    # Two different M365-related alert layouts route through this script:
     #
-    #     Rule name
-    #     Default vulnerabilities notification
+    #   1. The "vulnerabilities notification" layout:
+    #          Organization
+    #          Glasshouse Country Care
+    #      i.e. the label sits alone on its own line, the value is the
+    #      very next non-blank line. NOTE: no "^" line-start anchor here -
+    #      HTML tag stripping sometimes leaves "Organization" glued
+    #      directly onto the end of the preceding line (e.g.
+    #      "...notificationOrganization"), so anchoring to line start
+    #      caused this to never match even though the value itself is
+    #      cleanly on its own line right after.
     #
-    # i.e. the label sits alone on its own line, the value is the very
-    # next non-blank line. Capture up to the next line break.
-    # NOTE: no "^" line-start anchor here - HTML tag stripping sometimes
-    # leaves "Organization" glued directly onto the end of the preceding
-    # line (e.g. "...notificationOrganization"), so anchoring to line
-    # start caused this to never match even though the value itself is
-    # cleanly on its own line right after.
+    #   2. The Microsoft Defender for Endpoint alert layout ("Account
+    #      information" section), where label and value are on the same
+    #      line with a colon between them:
+    #          Organization name: Greenhalgh Pickard
+    #      Tried second, only if the first pattern didn't match, since
+    #      this is the newer/less common of the two.
     $orgName = $null
     if ($plainText -match '(?im)Organization\s*\r?\n\s*(.+?)\s*\r?\n') {
         $orgName = $Matches[1]
+        Write-Log "Matched layout 1 (Organization / value on next line): '$orgName'"
+    }
+    if ([string]::IsNullOrWhiteSpace($orgName) -and $plainText -match '(?im)Organization name\s*:\s*(.+?)\s*\r?\n') {
+        $orgName = $Matches[1]
+        Write-Log "Matched layout 2 (Defender 'Organization name:' field): '$orgName'"
     }
     Write-Log "Regex match result: '$orgName'"
     # -----------------------------------------------------
